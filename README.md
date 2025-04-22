@@ -1,4 +1,5 @@
 # _interest
+![image](https://github.com/user-attachments/assets/e720286c-9c46-4358-ba84-998b1db59e07)
 
 _interest is a Pinterest-like web application designed for users to discover, collect, and share images and content based on their interests. The project is built with a modern tech stack to ensure a smooth and scalable experience.
 

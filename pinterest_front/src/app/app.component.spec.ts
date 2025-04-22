@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'pinterest-clone' title`, () => {
+  it(`should have the 'pinterest_front' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('pinterest-clone');
+    expect(app.title).toEqual('pinterest_front');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, pinterest-clone');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, pinterest_front');
   });
 });
